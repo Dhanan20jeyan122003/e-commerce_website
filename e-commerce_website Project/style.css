@@ -1,0 +1,1134 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+
+
+/* Top Heading Style */
+nav{
+    background-color:rgb(43, 43, 250); 
+}
+.navcontainer1{
+    background-color: rgb(15, 15, 179);
+    width: 100%;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(231, 226, 226, 0.699);
+}
+.topHeader{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 19px;
+   
+}
+
+.topHeader1{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 20px;
+    margin-top: -17px;
+}
+
+.topHeader1 a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Next nav heading   */
+
+.companyicon{
+    padding-left: 19px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+.companyicon a{
+ color: white;
+  padding-left: 8px;
+ padding-top: 5px;
+ font-size: 20px;
+ text-decoration: none;
+}
+.searchbar{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+    margin-right: 15px;
+
+}
+.searchbar input{
+    position: relative;
+    padding:10px 50px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+
+.searchbar i{
+    position: absolute;
+    padding: 10px 10px;
+    color: blue;
+    font-size: 20px;
+
+}
+
+.navsections1{
+    display:flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-left: 10px;
+    margin-top: 30px;
+    font-size: 19px;
+     
+    
+}
+.navsections1 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* icon and login */
+.iconandlogin{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 19px;
+    gap: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.iconandlogin a{
+    color: white;
+    text-decoration: none;
+}
+.endnav{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.endnav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* time counter */
+.countdown {
+    text-align: center;
+    background-color: rgb(23, 22, 22);
+    margin-top: 10px;
+}
+
+.countdown h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background: linear-gradient(red,orange,blue,violet);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation-name: ani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes ani {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+    
+}
+.time {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 2rem;
+    color: red;
+}
+
+.time div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: greenyellow;
+}
+
+.time span {
+    font-size: 4rem;
+    font-weight: bold;
+}
+/* image fixiing */
+.image1 {
+    position: relative;
+    z-index: 0;
+    margin-top: 15px;
+}
+
+.imagebox{
+   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.568);
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -30%;
+    position: relative;
+    z-index: 1;
+    margin-left: 61%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 1rem;
+
+
+}
+
+.imagebox h6{
+    display: inline;
+    font-size: 20px;
+}
+.imagebox h1{
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 40px;
+    word-spacing: 10px;
+}
+
+.imagebox p{
+    width: 80%;
+    padding-top: 40px;
+}
+.imagebox button{
+      border: none;
+      background-color: transparent;
+      padding-top: 25px;
+      font-size: 25px;
+      color: blue;
+}
+/* about our service */
+
+.contentcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-left: 30px;
+    margin-top: 80px;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+    height: 140px;
+    align-items: center;
+    width: 80%;
+    margin-left: 145px;
+}
+.contentcontainer i{
+    font-size: 30px;
+   color: blue;
+}
+.contentcontainer p{
+    color: grey;
+}
+.contentcontainer h1{
+    font-size: 20px;
+}
+
+/* appliances having */
+.appliances{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 90px;
+    margin-top: 50px;
+    row-gap: 100px;
+    width: 90%;
+    height: 13%;
+     margin-left: 70px;
+     padding-bottom: 30px;
+     padding-top: 30px;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.appliances figure{
+    width: 80%;
+    padding: 10px;
+   
+}
+
+.appliances p{
+    padding-left: 70px;
+    color: grey;
+}
+
+.bannercon{
+    padding-inline: 3rem;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 30px;
+   
+}
+
+#imgg{
+    width: 100%;
+    height: 80%;
+}
+
+.banner1 {
+    position: relative;
+    
+}
+
+.banner1 figcaption{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 60%;
+    color: rgb(31, 30, 30);
+   z-index: 1;
+}
+.banner1 p{
+     font-size: 15px;
+     padding-top: 20px;
+}
+.banner2{
+    position: relative;
+}
+
+.banner2 figcaption{
+    position: absolute;
+    top: 30px;
+    left: 250px;
+     color: rgb(26, 24, 24);
+    
+     z-index: 1;
+}
+.stars {
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 25px;
+    color: gold;
+}
+.stars input {
+    display: none;
+}
+.stars label {
+    cursor: pointer;
+}
+.stars label:before {
+    content: "★";
+    padding: 0 5px;
+}
+.stars input:checked ~ label:before {
+    color: #ccc;
+}
+.stars input:checked + label:before {
+    color: gold;
+}
+/* Responsive adjustments for screens up to 576px */
+@media (max-width: 576px) {
+    .topHeader, .topHeader1 {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .companyicon {
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .searchbar {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px;
+    }
+
+    .navsections1 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .iconandlogin {
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 10px;
+    }
+
+    .endnav {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .countdown h1 {
+        font-size: 2rem;
+    }
+
+    .time {
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+
+    .image1 {
+        margin-top: 10px;
+    }
+
+    .imagebox {
+        margin-left: 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .contentcontainer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+    }
+
+    .appliances {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
+        row-gap: 20px;
+        margin-left: 10px;
+    }
+
+    .bannercon {
+        flex-direction: column;
+        gap: 10px;
+        padding: 1rem;
+    }
+
+    .banner1 figcaption, .banner2 figcaption {
+        width: 80%;
+        left: 10px;
+    }
+}
+
+/* Responsive adjustments for screens up to 768px */
+@media (max-width: 768px) {
+    .navsections1 {
+        gap: 50px;
+        padding: 20px;
+        font-size: 17px;
+    }
+
+    .iconandlogin {
+        gap: 20px;
+    }
+
+    .contentcontainer {
+        flex-direction: column;
+        width: 85%;
+        margin: 30px auto;
+    }
+
+    .appliances {
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+
+    .imagebox {
+        width: 90%;
+        margin-left: 5%;
+        padding: 15px;
+    }
+
+    .countdown h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Responsive adjustments for screens up to 992px */
+@media (max-width: 992px) {
+    .navsections1 {
+        gap: 70px;
+        padding: 30px;
+        font-size: 18px;
+    }
+
+    .iconandlogin {
+        gap: 25px;
+    }
+
+    .contentcontainer {
+        width: 80%;
+        margin: 40px auto;
+    }
+
+    .appliances {
+        grid-template-columns: repeat(4, 1fr);
+        padding-left: 30px;
+        margin-left: 30px;
+    }
+
+    .imagebox {
+        width: 85%;
+        margin-left: 7.5%;
+        padding: 20px;
+    }
+
+    .countdown h1 {
+        font-size: 3rem;
+    }
+}
+
+.appliances2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 90px;
+    margin-top: 50px;
+    row-gap: 100px;
+    width: 90%;
+    height: 13%;
+     margin-left: 70px;
+     padding-bottom: 30px;
+     padding-top: 30px;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.appliances2 figure{
+         width: 90%;
+         padding: 30px;
+         border: 3px solid rgba(0, 0, 0, 0);
+         box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+        
+
+}
+.appliances2 figure:hover{
+    scale: 0.9;
+    cursor: pointer;
+
+}
+.appliances2 img{
+    background-color: rgba(204, 196, 196, 0.462);
+}
+
+.appliances2 h3{
+    color: grey;
+    text-decoration: line-through;
+    font-size: 10px;
+    padding-top: 20px;
+    width: 70%;
+}
+.appliances2 h2{
+    color: black;
+
+}
+.appliances2 p{
+    width: 50%;
+}
+
+.sale{
+    padding-bottom: 20px;
+    
+}
+.sale h1{
+    color: rgb(245, 20, 20);
+}
+
+.headingsale{
+    padding-left: 90px;
+}
+
+.headingsale1{
+      padding-left: 350px;
+      padding-top: 10px;
+      color: blue;
+      text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+.banner{
+    width: 490px;
+    height: 200px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: rgba(198, 186, 186, 0.245);
+    position: relative;
+}
+.banner img{
+    position: relative;
+    left: 270px;
+    top: 20px;
+}
+
+.banner3{
+    width: 490px;
+    height: 200px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    margin-top: 30px;
+    background-color: rgba(159, 154, 154, 0.418);
+    position: relative;
+
+}
+.banner3 img{
+    position: relative;
+    left: 290px;
+    top: 10px;
+}
+
+
+.banner4{
+    width: 490px;
+    height: 200px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color: rgba(249, 249, 47, 0.697);
+    position: relative;
+}
+.banner4 img{
+    position: relative;
+    left: 230px;
+    top: 20px;
+}
+
+.bannercontainer{
+    display: flex;
+    gap: 20px;
+}
+
+
+.headp{
+    position: absolute;
+    top: 10px;
+}
+
+.headp1{
+    position: absolute;
+    top: 60px;
+    padding-left: 20px;
+    color: grey;
+}
+.headp2{
+    position: absolute;
+    top: 90px;
+    margin-left: -170px;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+.appliances3{
+    display: flex;
+    gap: 20px;
+    margin-left: 70px;
+    padding: 90px;
+    height: 10%;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+    text-transform: uppercase;
+    width: 90%;
+    margin-top: 30px;
+
+
+
+}
+.appliances3 figure{
+    width: 90%;
+    padding: 30px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+   
+
+}
+.appliances3 figure:hover{
+    scale: 0.9;
+    cursor: pointer;
+
+}
+.appliances3 img{
+    background-color: rgba(128, 128, 128, 0.484);
+    padding: 10px;
+}
+
+.appliances3 figcaption{
+    width: 80%;
+}
+
+.headingsale2{
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.headingsale3{
+    padding-left: 300px;
+      padding-top: 20px;
+      color: blue;
+      text-decoration: none;
+}
+.appliances3 h6{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.appliances3 p{
+    color: grey;
+    text-decoration: line-through;
+}
+
+.appliances3 h1{
+    font-size: 20px;
+    color: red;
+
+}
+
+/* appliances 4 */
+.appliances4{
+    display: flex;
+    gap: 20px;
+    margin-left: 70px;
+    padding: 90px;
+    height: 10%;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+    text-transform: uppercase;
+    width: 90%;
+    margin-top: 30px;
+
+
+
+}
+.appliances4 figure{
+    width: 90%;
+    padding: 30px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+   
+   
+}
+.appliances4 figure:hover{
+    scale: 0.9;
+    cursor: pointer;
+
+}
+
+.appliances4 img{
+    background-color: rgba(128, 128, 128, 0.484);
+    padding: 10px;
+}
+
+.appliances4 figcaption{
+    width: 80%;
+}
+
+.headingsale4{
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.headingsale5{
+    padding-left: 345px;
+      padding-top: 20px;
+      color: blue;
+      text-decoration: none;
+}
+.appliances4 h6{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.appliances4 p{
+    color: grey;
+    text-decoration: line-through;
+}
+
+.appliances4 h1{
+    font-size: 20px;
+    color: red;
+
+}
+.bannerimg{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.headingsale6{
+    padding-left: 380px;
+    text-decoration: none;
+    color: blue;
+}
+.headingsale7{
+    padding-left: 300px;
+    text-decoration: none;
+    color: blue;
+}
+.headingsale8{
+    padding-left: 410px;
+    text-decoration: none;
+    color: blue;
+}
+.branddeals{
+    width: 90%;
+    height: 460px;
+  margin-left: 60px;
+    margin-top: 30px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    position: relative;
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+}
+.imgdeals{
+    position: absolute;
+    left: 750px;
+    top: 40px;
+}
+.branddeals h2{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: grey;
+    letter-spacing: 3px;
+}
+.branddeals h1{
+    position: absolute;
+    top: 100px;
+    font-size: 40px;
+    width: 30%;
+    word-spacing: 10px;
+    left: 50px;
+}
+.branddeals p{
+    position: absolute;
+    top: 260px;
+    width: 40%;
+    left: 50px;
+    color: grey;
+}
+.branddeals a{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+}
+.head11{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.topbrands{
+    width: 99%;
+    height: 150px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+    margin-left: 10px;
+}
+.img11{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+   
+    
+}
+.img12{
+    position: absolute;
+    left: 340px;
+    top: 20px;
+ 
+}
+.img13{
+    position:absolute;
+    left: 690px;
+    height: 170px;
+    top: -10px;
+   
+
+}
+.img14{
+    position:absolute;
+    left: 900px;
+    width: 200px;
+    top: 15px  ;
+  
+}
+.img15{
+    position: absolute;
+    left: 1150px;
+   
+}
+.commentbox{
+    display: grid;
+    grid-template-columns: repeat(3,420px);
+    margin-left: 110px;
+    row-gap: 20px;
+}
+.commentbox p{
+    width: 70%;
+    padding-left: 20px;
+    padding-top: 30px;
+    word-spacing: 5px;
+}
+.cmdh{
+    padding-top: 20px;
+padding-bottom: 30px;
+padding-left: 40px;
+
+}
+.cmt1{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+}
+.cmt1 img{
+    width: 50px;
+    padding-top: 30px;
+ margin-left: 30px;
+}
+.cmt1 h1{
+    padding-left: 90px;
+    margin-top: -38px;
+    font-size: 20px;
+}
+.cmt2{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+}
+.cmt2{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+}
+.cmt2 img{
+    width: 50px;
+    padding-top: 30px;
+ margin-left: 30px;
+}
+.cmt2 h1{
+    padding-left: 90px;
+    margin-top: -38px;
+    font-size: 20px;
+}
+.cmt3{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+}
+.cmt3 img{
+    width: 50px;
+    padding-top: 30px;
+ margin-left: 30px;
+}
+.cmt3 h1{
+    padding-left: 90px;
+    margin-top: -38px;
+    font-size: 20px;
+}
+.cmt4{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+}
+.cmt4 img{
+    width: 50px;
+    padding-top: 30px;
+ margin-left: 30px;
+}
+.cmt4 h1{
+    padding-left: 90px;
+    margin-top: -38px;
+    font-size: 20px;
+}
+.cmt5{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+}
+.cmt5 img{
+    width: 50px;
+    padding-top: 20px;
+ margin-left: 30px;
+}
+.cmt5 h1{
+    padding-left: 90px;
+    margin-top: -38px;
+    font-size: 20px;
+}
+.cmt6{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 30px rgba(99, 98, 98, 0.268);
+}
+.cmt6 img{
+    width: 50px;
+    padding-top: 30px;
+ margin-left: 30px;
+}
+.cmt6 h1{
+    padding-left: 90px;
+    margin-top: -38px;
+    font-size: 20px;
+}
+.stars1 {
+    display: inline-block;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: gold;
+}
+.stars1 input {
+    display: none;
+}
+.stars1 label {
+    cursor: pointer;
+}
+.stars1 label:before {
+    content: "★";
+    padding: 0 5px;
+}
+.stars1 input:checked ~ label:before {
+    color: #ccc;
+}
+.stars1 input:checked + label:before {
+    color: gold;
+}
+.containerfoot{
+    display: flex;
+    gap: 200px;
+    border-top: 3px solid   rgba(99, 98, 98, 0.268);
+    padding-top: 30px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+.shop{
+    display: grid;
+
+}
+.shop h1{
+    padding-bottom: 40px;
+}
+
+
+.shop a{
+    text-decoration: none;
+    color: blue;
+    padding-bottom: 5px;
+}
+
+
+.contact h1{
+    padding-bottom: 40px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: blue;
+}
+.footerend{
+    background-color: rgb(0, 96, 128);
+    color: rgb(207, 201, 201);
+    padding: 30px;
+}
+.footerend1{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: -25px;
+    font-size: 30px;
+}
+
+.copyright{
+    padding-top: 30px;
+}
+
+
+/*  ALL PRODUCT  PAGES style*/
+
+.sidebar{
+    height: 100%;
+    width: 20%;
+    display: grid;
+    border-right: 3px solid   rgba(99, 98, 98, 0.268);
+    padding: 20px;
+ 
+    
+}
+
+.sidebar h1{
+    padding-bottom: 50px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: grey;
+    padding-bottom: 10px;
+}
+.sidebar h2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sidebar h3{
+    padding-top: 70px;
+    padding-bottom: 95rem;
+    
+}
+.shopping1 {
+    padding-left: 310px;
+    margin-top: -120rem;
+}
+
+.shopping1 h1{
+    color: blue;
+    padding-bottom: 80px;
+    font-size: 40px;
+}
+
+.Kitchen{
+    display: grid;
+    grid-template-columns: repeat(3,330px);
+    gap: 20px;
+    padding: 60px;
+    margin-top: 40px;
+   
+}
+
+.Kitchen figure{
+  border: 3px solid rgba(0, 0, 0, 0);
+  padding: 50px;
+  box-shadow: 2px 2px 20px  rgba(99, 98, 98, 0.268);
+}
+.Kitchen figcaption{
+    width: 70%;
+}
+.Kitchen img{
+    padding: 10px;
+    background-color: grey;
+}
+.Kitchen p{
+    text-decoration: line-through;
+    color: grey;
+}
+
+
